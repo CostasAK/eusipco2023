@@ -19,6 +19,13 @@
         line-height: 1.7;
         font-size: 1.2em;
       }
+      .two-column {
+        display: flex;
+        flex-flow: row wrap;
+      }
+      .two-column > section {
+        flex-grow: 1;
+      }
     </style>
   </head>
   <body>
@@ -28,55 +35,74 @@
         Suppression
       </h1>
 
-      <h2>Authors</h2>
-      <ul>
-        <li>
-          <a
-            href="https://costas.kokke.eu"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Costas A. Kokke</a
-          >
+      <div class="two-column">
+        <section>
+          <h2>Authors</h2>
           <ul>
-            <li><a href="https://costas.kokke.eu/vcard_tud.vcf">vCard</a></li>
             <li>
-              <a href="mailto:C.A.Kokke@tudelft.nl">C.A.Kokke@tudelft.nl</a>
+              <a
+                href="https://costas.kokke.eu"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Costas A. Kokke</a
+              >
+              <ul>
+                <li>
+                  <a href="https://costas.kokke.eu/vcard_tud.vcf">vCard</a>
+                </li>
+                <li>
+                  <a href="mailto:C.A.Kokke@tudelft.nl">C.A.Kokke@tudelft.nl</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/mariocoutino/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Mario Coutino</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://sps.ewi.tudelft.nl/People/bio.php?id=48"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Richard Heusdens</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://sps.ewi.tudelft.nl/People/bio.php?id=3"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Geert Leus</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/laura-anitori-b3784888/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Laura Anitori</a
+              >
             </li>
           </ul>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/mariocoutino/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Mario Coutino</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://sps.ewi.tudelft.nl/People/bio.php?id=48"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Richard Heusdens</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://sps.ewi.tudelft.nl/People/bio.php?id=3"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Geert Leus</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/laura-anitori-b3784888/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Laura Anitori</a
-          >
-        </li>
-      </ul>
+        </section>
+        <section>
+          <h2>Links</h2>
+          <ul>
+            <li>
+              <a
+                href="https://github.com/CostasAK/eusipco2023"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Code Repository</a
+              >
+            </li>
+          </ul>
+        </section>
+      </div>
 
       <h2>Abstract</h2>
       <p>
@@ -101,26 +127,20 @@
         integrated sidelobe ratio
       </p>
 
-      <h2>Published</h2>
-      <p>2023-06-04</p>
+      <div class="two-column">
+        <section>
+          <h2>Published</h2>
+          <p>2023-06-04</p>
+        </section>
+
+        <section>
+          <h2>Publisher</h2>
+          <p>IEEE</p>
+        </section>
+      </div>
 
       <h2>Conference</h2>
       <p>2023 31st European Signal Processing Conference (EUSIPCO)</p>
-
-      <h2>Publisher</h2>
-      <p>IEEE</p>
-
-      <h2>Links</h2>
-      <ul>
-        <li>
-          <a
-            href="https://github.com/CostasAK/eusipco2023"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Code Repository</a
-          >
-        </li>
-      </ul>
     </main>
   </body>
 </html>
